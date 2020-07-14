@@ -1,0 +1,19 @@
+<html>
+    <head>
+<h2>first javascript</h2>
+    </head>
+    <body>
+        <p>write javascript program to display the current date and time in the following format</p>
+        <p id="demo"></p>
+        <script>
+            var currentdate=new Date();
+            var currentday=currentdate.getDay();
+            var currenthour=currentdate.getHours();
+            var currentminute=currentdate.getMinutes();
+            var currentsecond=currentdate.getSeconds();
+            document.getElementById("demo").innerHTML="today is"+currentday;
+            document.getElementById("demo").innerHTML=currenthour+":"+currentminute+":"+currentsecond;
+        </script>
+
+    </body>
+</html>

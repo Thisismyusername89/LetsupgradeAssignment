@@ -1,0 +1,21 @@
+<html>
+    <head>
+<h2>first javascript</h2>
+
+    </head>
+    <body>
+        <p>write javascript program to get current date.<br>expected output : dd-mm-yyyy</p>
+       <p id="demo"></p>
+        <script>
+            
+            var currentdate =new Date();
+            var currentnumberofdate=currentdate.getDate();
+            var currentmonth=currentdate.getMonth();
+            var currentyear=currentdate.getFullYear();
+
+            document.getElementById("demo").innerHTML=currentnumberofdate+"-"+currentmonth +"-"+ currentyear;
+            
+        </script>
+
+    </body>
+</html>
